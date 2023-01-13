@@ -1,0 +1,17 @@
+file_type: csv
+dataset_name: file
+file_name: 2017-07_bme280sof
+table_name: sensorData
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - unnamed__0
+    - sensor_id
+    - location
+    - lat
+    - lon
+    - timestamp
+    - pressure
+    - temperature
+    - humidity
